@@ -90,7 +90,9 @@ python formula_recognition_demo.py -i sample2.png  -m_encoder models/formula-rec
 https://drive.google.com/drive/folders/1cZpY5xPHWLRceHZXFa10LPuEX95pXEoF?usp=sharing
 
 
+object detection 명령
 
+python object_detection_demo.py   -d CPU -i object_detection_test.mp4   -m models/ssd300.xml  -at ssd  --labels D:\HIGEN_AI-main\smartfactory\open_model_zoo-master/data/dataset_classes/voc_20cl_bkgr.txt
 
 
 
