@@ -1,0 +1,79 @@
+{
+    "type_of_model": "SSD",
+    "converter_type": "DETECTION",
+    "model_parameters": {
+        "result_based_confidence_threshold": true,
+        "confidence_threshold": 0.22499999403953552,
+        "labels": {
+            "label_tree": {
+                "type": "tree",
+                "directed": true,
+                "nodes": [],
+                "edges": []
+            },
+            "label_groups": [
+                {
+                    "_id": "628f56e1f2d5e71ec54f1b75",
+                    "name": "Default group",
+                    "label_ids": [
+                        "628f56e1f2d5e71ec54f1b77",
+                        "628f56e1f2d5e71ec54f1b78"
+                    ],
+                    "relation_type": "EXCLUSIVE"
+                },
+                {
+                    "_id": "628f56e1f2d5e71ec54f1b76",
+                    "name": "No Object",
+                    "label_ids": [
+                        "628f56e1f2d5e71ec54f1b79"
+                    ],
+                    "relation_type": "EMPTY_LABEL"
+                }
+            ],
+            "all_labels": {
+                "628f56e1f2d5e71ec54f1b77": {
+                    "_id": "628f56e1f2d5e71ec54f1b77",
+                    "name": "CLP",
+                    "color": {
+                        "red": 204,
+                        "green": 148,
+                        "blue": 218,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2022-05-26T10:30:57.244000",
+                    "is_empty": false
+                },
+                "628f56e1f2d5e71ec54f1b78": {
+                    "_id": "628f56e1f2d5e71ec54f1b78",
+                    "name": "FACE",
+                    "color": {
+                        "red": 128,
+                        "green": 233,
+                        "blue": 175,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2022-05-26T10:30:57.244000",
+                    "is_empty": false
+                },
+                "628f56e1f2d5e71ec54f1b79": {
+                    "_id": "628f56e1f2d5e71ec54f1b79",
+                    "name": "No Object",
+                    "color": {
+                        "red": 72,
+                        "green": 88,
+                        "blue": 139,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2022-05-26T10:30:57.244000",
+                    "is_empty": true
+                }
+            }
+        }
+    }
+}

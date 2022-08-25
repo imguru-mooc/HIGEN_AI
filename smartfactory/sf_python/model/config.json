@@ -1,0 +1,94 @@
+{
+    "type_of_model": "SSD",
+    "converter_type": "DETECTION",
+    "model_parameters": {
+        "result_based_confidence_threshold": true,
+        "confidence_threshold": 0.375,
+        "labels": {
+            "label_tree": {
+                "type": "tree",
+                "directed": true,
+                "nodes": [],
+                "edges": []
+            },
+            "label_groups": [
+                {
+                    "_id": "62e8dcaa2bd77554eef9624c",
+                    "name": "Default group",
+                    "label_ids": [
+                        "62e8dcaa2bd77554eef9624e",
+                        "62e8dcaa2bd77554eef9624f",
+                        "62e8dcaa2bd77554eef96250"
+                    ],
+                    "relation_type": "EXCLUSIVE"
+                },
+                {
+                    "_id": "62e8dcaa2bd77554eef9624d",
+                    "name": "No Object",
+                    "label_ids": [
+                        "62e8dcaa2bd77554eef96251"
+                    ],
+                    "relation_type": "EMPTY_LABEL"
+                }
+            ],
+            "all_labels": {
+                "62e8dcaa2bd77554eef9624e": {
+                    "_id": "62e8dcaa2bd77554eef9624e",
+                    "name": "triangle",
+                    "color": {
+                        "red": 204,
+                        "green": 148,
+                        "blue": 218,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2022-08-02T08:13:30.559000",
+                    "is_empty": false
+                },
+                "62e8dcaa2bd77554eef9624f": {
+                    "_id": "62e8dcaa2bd77554eef9624f",
+                    "name": "rectagle",
+                    "color": {
+                        "red": 7,
+                        "green": 105,
+                        "blue": 132,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2022-08-02T08:13:30.559000",
+                    "is_empty": false
+                },
+                "62e8dcaa2bd77554eef96250": {
+                    "_id": "62e8dcaa2bd77554eef96250",
+                    "name": "circle",
+                    "color": {
+                        "red": 129,
+                        "green": 64,
+                        "blue": 123,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2022-08-02T08:13:30.559000",
+                    "is_empty": false
+                },
+                "62e8dcaa2bd77554eef96251": {
+                    "_id": "62e8dcaa2bd77554eef96251",
+                    "name": "No Object",
+                    "color": {
+                        "red": 88,
+                        "green": 141,
+                        "blue": 136,
+                        "alpha": 255
+                    },
+                    "hotkey": "",
+                    "domain": "DETECTION",
+                    "creation_date": "2022-08-02T08:13:30.559000",
+                    "is_empty": true
+                }
+            }
+        }
+    }
+}
