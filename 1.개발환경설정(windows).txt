@@ -1,0 +1,53 @@
+1. git hub에서 강의 자료 다운 로드
+https://github.com/imguru-mooc/HIGEN_AI
+Code 버튼 클릭 후 압축 파일 받은 후 압축 해제
+해당 디렉토리로 이동
+
+2. python 3.9 download
+
+https://www.python.org/
+
+Download Windows installer (64-bit)
+로 다운 로드 후 설치 
+
+- !!Check Add python path - reboot
+
+ 
+3. 가상 환경 만들기 
+현재 폴더에서 탐색기의 경로에 cmd를 입력하여 실행
+
+D:\HIGEN_AI-main\smartfactory> python -m venv .venv
+D:\HIGEN_AI-main\smartfactory> .venv\Scripts\activate
+(.venv) D:\HIGEN_AI-main\smartfactory>
+
+3. 최신 pip로 업그레이드 
+(.venv) D:\HIGEN_AI-main\smartfactory> python -m pip install --upgrade pip
+
+4. opencv 설치
+(.venv) D:\HIGEN_AI-main\smartfactory> python -m pip install opencv-contrib-python
+
+
+5. Run jupyter notebook 
+
+opencv 예제 실행
+
+
+6. openVINO runtime download
+
+https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/download.html
+
+Runtime - 2022.1 - offline installer
+
+ 
+
+7. (In conda or virtual environment) openVINO dev download
+
+(.venv) D:\HIGEN_AI-main\smartfactory> pip install openvino-dev[onnx,tensorflow2]==2022.1.0
+
+ 
+
+8. (In conda or virtual environment) Run openVINO setupvars.bat
+
+(.venv) D:\HIGEN_AI-main\smartfactory> cd "C:\Program Files (x86)\Intel\openvino_2022.1.0.643"
+(.venv) D:\HIGEN_AI-main\smartfactory> setupvars.bat
+
